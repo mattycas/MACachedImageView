@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
   s.author       = { "Manuel Alabor" => "msites@msites.net" }
   s.license      = "MIT"
 
-  s.source       = { :git => "https://github.com/swissmanu/MACachedImageView.git", :tag => "1.1.2" }
+  s.source       = { :git => "https://github.com/swissmanu/MACachedImageView.git", :tag => "1.1.3" }
 
   s.platform     = :ios, '6.0'
   s.source_files = 'MACachedImageView/MACachedImageView.{h,m}','MACachedImageView/NSString+MD5.{h,m}'
-  s.dependency     'AFNetworking', '~> 2.0'
+  s.dependency     'AFNetworking', '~> 2.2'
   s.dependency     'MACircleProgressIndicator', '~> 1.0.0'
   s.requires_arc = true
 end
